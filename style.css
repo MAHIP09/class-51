@@ -1,0 +1,38 @@
+h1 {
+    color: brown;
+}
+
+* {
+    border: solid;
+}
+ .header{
+
+    background-color:  blue;
+    display:flex;
+    justify-content: space-between;
+    
+ }
+
+.grid{
+    
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    color:orange
+}
+.footer{
+    background-color: green ;
+    display: flex;
+    justify-content:flex-end;
+}
+ p,h2{
+     text-align: center;
+ }
+ body{
+     background-color:#707070;
+     margin-top:100px;
+     margin-left:20px;
+     margin-right:20px;
+     border-style:dotted;
+     padding:25px;
+ }
